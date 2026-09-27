@@ -18,10 +18,13 @@ The architecture should be feature + page, components. e.g
 ```
 
 where in root you have:
+
+```text
 layouts/* (Shared) e.g AuthLayout, AppLayout
 components/* (Shared)
 services/* (Shared and bases)
 utils/* (Shared) e.g utils.ts, constants.ts etc.
+```
 
 The services you always write in this format
 services/example/hooks.ts -- contains hooks
