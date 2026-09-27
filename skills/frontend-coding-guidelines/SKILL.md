@@ -1,8 +1,10 @@
 ---
-name: frontend-coding
-description: Coding frontend applications using React, Vite, Tenstack, Antd, and AntdX.
+name: frontend-coding-guidelines
+description: Frontend architecture and coding standards. Use when writing, reviewing, or refactoring frontend code.
 ---
-# Frontend Coding
+# Frontend Coding Guidelines
+
+Use the following rules when coding frontend applications, except when applications have different rules or structure. self instruct yourself through genereting .local/frontend-coding/SKILL.md explaining the rules and structure in similar format like this one.
 
 ## Architecture
 
@@ -41,3 +43,5 @@ Whenever you are using any dependencies always check for latest versions and bes
 ## Principles
 
 no app-defined classes, functions driven, simple one layer, modular components, strive for human maintainability, stateless logic, and pure functions, tidy-as-you go
+
+**important**: You strive to have tests, you focus on writing the goal through the tests, you define the output of the system through testing and for critical workflows use e2e tests.
